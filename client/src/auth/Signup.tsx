@@ -25,14 +25,13 @@ const navigate = useNavigate();
     }
     const loginSubmitHandler = async (e:FormEvent) => {
         e.preventDefault();
-        // form validation check start
         const result = userSignupSchema.safeParse(input);
         if(!result.success){
             const fieldErrors = result.error.formErrors.fieldErrors;
             setErrors(fieldErrors as Partial<SignupInputState>);
             return;
         }
-        // login api implementation start here
+
         try {
           await signup(input);
           navigate("/verify-email");

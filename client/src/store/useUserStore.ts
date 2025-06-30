@@ -4,7 +4,7 @@ import axios from "axios";
 import { LoginInputState, SignupInputState } from "@/schema/userSchema";
 import { toast } from "sonner";
 
-const API_END_POINT = "http://localhost:8000/api/v1/user"
+const API_END_POINT = "https://foodie-qnwk.onrender.com/api/v1/user"
 axios.defaults.withCredentials = true;
 
 type User = {
@@ -39,7 +39,7 @@ export const useUserStore = create<UserState>()(persist((set) => ({
     isAuthenticated: false,
     isCheckingAuth: true,
     loading: false,
-    // signup api implementation
+
     signup: async (input: SignupInputState) => {
         try {
             set({ loading: true });
