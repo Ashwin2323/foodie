@@ -16,7 +16,8 @@ Built to learn, experiment, and showcase best practices in **Node.js**, **React*
 
 ## 📸 Screenshots
 
-> screenshots or a short GIF/video of your app UI here_
+> ![image](https://github.com/user-attachments/assets/8645b5d2-5950-4c83-99fa-954e3c2d5dbe)
+
 
 
 ## 🛠 Tech Stack
@@ -35,6 +36,3 @@ Built to learn, experiment, and showcase best practices in **Node.js**, **React*
 > Mailtrap is not working currently because of not using any owned domain so after signup, navigate again to login page to get in.
 > Payment integration works till stripe webhook page after that the confirmation of order needs to be done manually.
 > Similarly, for getting the access of creating restaurants is done directly from database.
-
->## Live Link
-> https://foodie-qnwk.onrender.com
