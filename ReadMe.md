@@ -16,7 +16,8 @@ Built to learn, experiment, and showcase best practices in **Node.js**, **React*
 
 ## 📸 Screenshots
 
-> screenshots or a short GIF/video of your app UI here_
+> ![image](https://github.com/user-attachments/assets/8645b5d2-5950-4c83-99fa-954e3c2d5dbe)
+
 
 
 ## 🛠 Tech Stack
